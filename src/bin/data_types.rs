@@ -1,21 +1,16 @@
 fn main() {
   //The main data types in rust are
   // 1) Scalar Types.
-  
   // #integer: two types of integer are signed and unsigned
-  
   //  &)signed: can store positive and negative numbers: i8,i16,i32,i64,i128,
   let positive_number : i32 = 34;
   let negative_number : i32 = -32;
-  
   //  &)unsigned : can store only positive numbers : u8,u16,u32,u64,u128
   let positive_unsigned: u32 = 50;
   let negative_unsigned: u32 = -50; //to allowed throws compile error.
-  
   // #Floating numbers: to store decimal point numbers: f32 and f64
   let floating_number: f32 = 50.67;
-  let floating_number2: f64 = 2000.67
-  
+  let floating_number2: f64 = 2000.67;
   // #boolean: to store boolean values : bool
   let is_true: bool = true;
   let is_false: bool = false;
@@ -40,5 +35,5 @@ fn main() {
   let name: String = String::from("sharoon");
 
   // #)&str: A string slice (borrowed reference to a string)
-  let my_name: &str = "sharoon"
+  let my_name: &str = "sharoon";
 }
