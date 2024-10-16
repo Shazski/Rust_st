@@ -28,7 +28,7 @@ fn main() {
   
   // #Tuples: A tuple is a fixed-size collection of values of different types and we can destructure and can access using index values:
   //  (dataTypes,..,..)
-  let tuple: (i32,char,bool) = (450,'a',true)
+  let tuple: (i32,char,bool) = (450,'a',true);
   
   // Arrays: An array is a fixed-size collection of values of the same type and can access using index: [dataTypes,limit]
   let arr : [i32; 4] = [1,2,3,4];
